@@ -133,7 +133,78 @@ table {
 }
 html,
 body {
-  height: 100%;
+  background: #c2bcbc;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  line-height: 1.25;
+}
+h1,
+h2,
+h3,
+h4 {
+  padding: 1rem 0 1rem 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.25rem;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
 }
 /* color scheme */
 /* mixins */
+body {
+  background: #e2ffdd;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+  border: 2px solid #49494b;
+}
+body .welcome {
+  padding: 2rem 1rem;
+}
+body #header {
+  background: #c2bcbc;
+  border: 2px solid #49494b;
+  line-height: 2;
+}
+body #header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #49494b;
+}
+body #header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  list-style-type: circle;
+  padding: 0 2rem 1rem 2rem;
+}
+ul li {
+  margin: 0.5rem;
+}
+#horizontal-list {
+  columns: 2;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #c2bcbc;
+  border: 2px solid #49494b;
+  line-height: 2;
+}
+.icons a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #49494b;
+}
+.contact {
+  text-align: center;
+  padding-top: 2rem;
+}

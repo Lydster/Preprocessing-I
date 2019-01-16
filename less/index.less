@@ -55,15 +55,32 @@ table {
 }
 
 html, body {
-    height: 100%;
+	background: @silver;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	line-height: 1.25;
 }
 
+h1, h2, h3, h4 {
+	padding: 1rem 0 1rem 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.25rem;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+}
 /* color scheme */
 
-@rose: #bd8c7d;
-@soft-gold: #d1bfa7;
-@silver: #8e8e90;
+@green: #e2ffdd;
+@soft-gray: #50514F;
+@silver:#c2bcbc;
 @onyx: #49494b;
+@jet: #070707;
 
 /* mixins */
 
@@ -73,5 +90,61 @@ html, body {
 	align-items: @align;
 }
 
+body {
+	background: @green;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 2%;
+	border: 2px solid @onyx;
+	.welcome {
+		padding: 2rem 1rem;
+	}
+	#header {
+		background: @silver;
+		border: 2px solid @onyx;
+		line-height: 2;
+		a {
+			text-decoration: none;
+			font-size: 1.5rem;
+				color: @onyx;
+		}
+		nav {
+			.custom-flex(space-around, center);
+		}
+	}
+}
 
 
+
+
+
+ul {
+	list-style-type: circle;
+	padding: 0 2rem 1rem 2rem;
+	li {
+		margin: .5rem;
+	}
+}
+
+#horizontal-list {
+	columns: 2
+	}
+
+.icons {
+	.custom-flex(space-around, center);
+		background: @silver;
+		border: 2px solid @onyx;
+		line-height: 2;
+		a {
+			text-decoration: none;
+			font-size: 1.5rem;
+				color: @onyx;
+		}
+}
+
+.contact {
+	text-align: center;
+	padding-top: 2rem;
+}
