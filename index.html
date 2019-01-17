@@ -3,17 +3,94 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
   <title>My Resume</title>
-
-  <link rel="stylesheet" href="css/index.css">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="css/index.css"/>
 </head>
 
-<body>
-  <h1>My Resume</h1>
+<body class="preload">
+  <div class="container">
+      <div class="inner">
+        <h1>Lydia Thornton</h1>
+      </div>
+    <header id="header">
+      <nav>
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">PROJECTS</a>
+        <a href="#">CONTACT</a>
+      </nav>
+    </header>
+  </div>
+  <div id="main">
+      <div class="inner">
+        <section class="welcome"><p>Recent graduate of MissionU, a one-year data analytics and business intelligence education startup (acquired by WeWork). Current student at Lambda School, a Full-Stack Web Development program. I love learning new things and building projects that inspire people to come together.</p></section>
+        <h3>Technical Skills</h3>
+          <ul class="horizontal-list">
+            <li>SQL</li>
+            <li>Python (Pandas, Seaborn, Matplotlib, NumPy, SciPy)</li>
+            <li>Microsoft Excel and Powerpoint</li>
+            <li>Google G-Suite</li>
+            <li>Keplar.gl</li>
+            <li>Tableau</li>
+            <li>MODE analytics</li>
+            <li>Semantic HTML</li>
+            <li>Advanced CSS</li>
+            <li>Javascript</li>
+            <li>Ruby</li>
+          </ul>
+          <section class="projects">
+            <h3>Project Experience</h3>
+            <h4>IDEO Design Thinking Challenge</h4>
+            <ul>
+              <li><p>Executed a one-week design sprint on increasing gratitude in the workplace; conducted qualittative research on 25 employees to uncover workplace insights, identifies clusters of pain points, defined key problem statements, brainistormed over 100 solutions, and prototyped 2 experiments</p></li>
+            <li><p>Presented final prototype to a panel of professional designers from SF Mayor's Office of Civic Innovation and Califorrnia College of the Arts and erciieved "Most likely to be acquired by IDEO" distiction</p></li>
+            </ul>
+            <h4>Hollywood Black List Analysis</h4>
+            <ul>
+              <li><p>Scraped data from the annual black list website; combined/cleaned data in excel and SQL and created a local database in DB Browser</p></li>
+              <li><p>Created visualizations of my insights and findings using Tableau, Matplotlib, and Seaborn</p></li>
+              <li><p>Fit parameters of a topic modeling function in Python with both Latent Derilicht Analysis and Non-negative Matrix factorization to compare the topic outcomes and better understand feature settings.</p></li>
+              <li><p>We humans came up with 42 words that we thought would represent a high percentage of movie discriptions. Our topic modeling function came up with 11 words that accounted for a larger percentage of discriptions than our 42 words </p></li>
+              <li><p>Since 2015 the amount of female screenwriters on the Black List has doubled to 33% of the total scripts. If this trend continues for the next 5 years we can expect equal gender representation of scripts in the black list.</p></li>
+            </ul>
+          </section>
+          <section class="work">
+            <h3>Work Experience</h3>
+            <h4>Pathstream</h4>
+              <ul>
+                <li><p>Consulted on a digital marketing course designed for certified employee training</p></li>
+                <li><p>Utilized my experience in alternative higher ed and identifying important metrics in a startup setting to povide content designers with real world stumbling blocks and breakthroughs that come with designing a digital marketing campaign around objectives and KPIs</p></li>
+              </ul>
+            <h4>Tipe.io</h4>
+              <ul>
+                <li><p>Performed analyses on user centered data to provide insights, goals, objectives, and Key Performance Indicators for a Y Combinator startup</p></li>
+                <li><p>Created dynamic dashboards that reflect user trends and participation using PostgreSQL</p></li>
+                <li><p>Identified and tracked KPIs and other metrics using advanced analytics and statistics in SQL and Python. I then build reports shared throughout the company that povided developers with quantifiable data and direction</p></li>
+              </ul>
+        </section>
+        <h3>Education</h3>
+        <section class="school">
+          <h4>Lambda School</h4>
+            <p>Full-Stack Web Development</p>
+          <h4>MissionU</h4>
+            <p>Data Analytics and Businsess Intelligence</p>
+          </section>
+        </section>
+        </div>
+        <footer id="footer">
+            <section>
+            <h2 class="contact">Contact and Follow</h2>
+              <div class="icons">
+                <a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a>
+                <a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a>
+                <a href="tel:8122044579" class="icon style2 fa-phone"><span class="label">Phone</span></a>
+                <a href="mailto:lydia.d.thornton@gmail.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a>
+              </ul>
+            </section>
+        </footer>
+      </div>
 </body>
 </html>
